@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+venv/
+.venv/
+env/
+ENV/
+
+# Configuration and secrets (CRITICAL: Do not leak tokens!)
+.env
+*.local
+
+# Database
+finance.db
+*.sqlite3
+*.db
+
+# OS / Editor files
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
+*.log
